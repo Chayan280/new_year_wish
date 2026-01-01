@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # YAHAN APNI GIRLFRIEND KA NAAM DAALO
-GIRLFRIEND_NAME = "Tukai"
+GIRLFRIEND_NAME = "Darling"
 
 # Custom CSS - Fully Mobile Responsive
 st.markdown("""
@@ -486,4 +486,5 @@ st.markdown(f"""
 Made with infinite ❤️ for {GIRLFRIEND_NAME}<br>
 Happy New Year 2026! 🎆
 </p>
+
 """, unsafe_allow_html=True)
