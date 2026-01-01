@@ -285,7 +285,7 @@ if st.session_state.current_page == 1:
     
     message = f"""
     <div class="love-message">
-        <strong style="font-size: 1.4em;">To My Dearest {GIRLFRIEND_NAME} Sona 😘,</strong><br><br>
+        <strong style="font-size: 1.4em;">To My Dearest {GIRLFRIEND_NAME} 😘,</strong><br><br>
         
         As we welcome 2026 together, I want you to know
         that you are my greatest blessing! ✨
@@ -434,7 +434,7 @@ elif st.session_state.current_page == 4:
     final_message = f"""
     <div class="love-message">
         <h2 style="color: #FFD700; font-size: clamp(1.4em, 6vw, 2.5em); margin-bottom: 25px;">
-        Dear {GIRLFRIEND_NAME} darling,
+        Dear {GIRLFRIEND_NAME} ,
         </h2>
         
         
@@ -461,7 +461,7 @@ elif st.session_state.current_page == 4:
     st.markdown("""
     <div class="cute-sticker-box">
         <div style="font-size: clamp(5em, 20vw, 9em); margin: 20px 0;">
-        👦❤️👧
+        💑
         </div>
         <div class="flower-garden">
             <span>🌹</span><span>💕</span><span>🌺</span><span>💖</span><span>🌻</span>
@@ -488,3 +488,4 @@ Happy New Year 2026! 🎆
 </p>
 
 """, unsafe_allow_html=True)
+
